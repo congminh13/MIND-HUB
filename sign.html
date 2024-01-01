@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./sign.css">
+    <link rel="icon" type="image/x-icon" href="./app-logo.jpg">
+    <title>Mindx Store - Login</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <a id="web-logo" href="./index.html">
+            <img src="./website-logo.jpg" alt="">
+        </a>
+        <a href="./store.html" class="nav-item" id="store">Store</a>
+        <a href="./cart.html" class="nav-item" id="cart">My cart</a>
+        <a href="./sign.html" class="nav-item" id="">Login</a>
+    </div>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form id="registration-form">
+                <h1>Create account</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                    <span>or register with email</span>
+                    <input type="text" id="full-name" name="full-name" placeholder="Username">
+                    <span class="error-message" id="full-name-error"></span>
+                    <input type="text" id="mail" name="mail" placeholder="Email">
+                    <span class="error-message" id="mail-error"></span>
+                    <input type="text" id="pass" name="pass" placeholder="Password">
+                    <span class="error-message" id="pass-error"></span>
+                <button type="submit">Sign up</button>
+                    <span class="allow-message" id="pass-allowed"></span>
+            </form>
+        </div>
+
+        <div class="form-container sign-in">
+            <form id="login-form">
+                <h1>Sign in</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                    <span>or sign in with email</span>
+                    <input type="text" id="log-mail" name="full-name" placeholder="Email">
+                    <span class="error-message" id="log-mail-error"></span>
+                    <input type="text" id="log-pass" name="pass" placeholder="Password">
+                    <span class="error-message" id="log-pass-error"></span>
+                    <a href="#">Forget password?</a>
+                    <button type="submit">Sign in</button>
+                    <span class="allow-message" id="log-allowed"></span>
+            </form>
+        </div>
+        
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome back!</h1>
+                    <p>Log in to recieve newest information about the website.</p>
+                    <button class="hidden" id="login">Sign in</button>
+                    <a class="back_for" href="./index.html">Return home</a>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Welcome new client!</h1>
+                    <p>Register to access newest website's application.</p>
+                    <button class="hidden" id="register">Sign up</button>
+                    <a class="back_for" href="./index.html">Return home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="info">
+        <p>CÔNG TY CỔ PHẦN TRƯỜNG HỌC CÔNG NGHỆ MINDX. Mã số thuế: 0110021468</p>
+        <p>Địa chỉ: Tầng 2, Tòa 29T1 Hoàng Đạo Thúy, Phường Trung Hoà, Quận Cầu Giấy, Thành phố Hà Nội, Việt Nam</p>
+        <p>Hotline tuyển sinh cho trẻ từ 6-17 tuổi:</p>
+        <p>-Hà Nội: 02477717888</p>
+        <p>-Tp.HCM: 02877717789</p>
+        <p> -Tỉnh/tp khác: 02477731666</p>
+        <p>Hotline tuyển sinh lớp cho sinh viên và người đi làm: 02477705666</p>
+    </div>
+    <script src="./sign-app.js"></script>
+</body>
+</html>
